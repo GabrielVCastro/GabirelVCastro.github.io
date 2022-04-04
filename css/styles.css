@@ -3044,6 +3044,7 @@ textarea.form-control-lg {
 .btn-primary:hover {
   color: var(--bs-laranja-escuro-paleta);
   background-color: var(--bs-azul-claro-paleta);
+  border:1px;
   border-color: var(--bs-azul-paleta);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
