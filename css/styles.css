@@ -3042,9 +3042,9 @@ textarea.form-control-lg {
   border-color: #f4623a;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: var(--bs-laranja-aescuro-palet);
-  border-color: #c34e2e;
+  color: var(--bs-laranja-escuro-paleta);
+  background-color: var(--bs-azul-claro-paleta);
+  border-color: var(--bs-azul-paleta);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11461,4 +11461,8 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+#about{
+  background-image: linear-gradient(var(--bs-laranja-escuro-paleta), var(--bs-laranja-paleta)) !important;
+
 }
