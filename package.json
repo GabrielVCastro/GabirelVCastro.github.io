@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@splidejs/splide": "^3.6.12",
     "bootstrap-icons": "^1.8.1"
   }
 }
